@@ -1,0 +1,10 @@
+{
+  "testcase1": {
+    "url": "www.baidu.com",
+    "method": "get"
+  },
+  "testcase2": {
+    "url": "www.baidu.com2",
+    "method": "get2"
+  }
+}

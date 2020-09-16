@@ -1,0 +1,41 @@
+
+
+-test_get_createuser:
+    url: https://reqres.in/api/users?page=2
+    method: GET
+    hearders:
+      Referer: https://reqres.in/
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36
+    payload:
+    result:
+      status_code: 200
+
+
+-test_post_createuser:
+    url: https://reqres.in/api/users/?page=2
+    method: POST
+    hearders:
+      Content-Type: application/x-www-form-urlencoded
+    payload:
+      name: linda
+      job: leader
+    result:
+      status_code: 201
+-test_put_edituser:
+    url: https://reqres.in/api/users/?page=2
+    method: POST
+    hearders:
+      Content-Type: application/x-www-form-urlencoded
+    payload:
+      name: linda8888
+      job: leader
+    result:
+      status_code: 201
+test_delete_users:
+    url: https://reqres.in/api/users/?page=2
+    method: DELETE
+    hearders:
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36
+    payload:
+    result:
+      status_code: 204

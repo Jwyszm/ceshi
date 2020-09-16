@@ -1,0 +1,8 @@
+- testcase:
+    url: "www.baidu.com"
+    method: "get"
+- testcase:
+    url: "www.baidu.com2"
+    method: "post"
+
+
